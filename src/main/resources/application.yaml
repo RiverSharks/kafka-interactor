@@ -1,0 +1,6 @@
+integration:
+  kafka:
+    producer:
+      sample:
+        topic: dev-sample-topic-v1
+        bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:localhost:59092}
